@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_contact"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"/>
+    <Spinner
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_add_chat_spn_choose_contact"/>
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_chat"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:id="@+id/activity_add_chat_btn_create_chat" />
+</LinearLayout>
